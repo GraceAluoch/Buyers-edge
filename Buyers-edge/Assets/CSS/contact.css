@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+/* Nav bar styling */
+.nav{
+    padding: 0vw;
+    padding-bottom: 5px;
+    margin: 0vw;
+    text-align: center;
+    background-color: #454545;
+    
+}
+.header{
+    padding: 1.5vw;
+    font-size: 1.5vw;
+}
+.header li{
+    display: inline;
+    padding-left: 1.7vw; 
+}
+.header li a{
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-size: 1.5vw;
+    color: #ea9651ef;
+}
+.header li a:hover{
+    color: white;
+}
+.header ul #login-button a{
+    color: #FFFFFF;
+    font-size: 1.3vw;
+    background-color: #FF6000;
+    border-radius: 1vw;
+    padding-left: 5px ;
+    padding-right:5px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: right;
+    top: -1.1vw;
+}
+
+.header ul #logo a{
+    float: left;
+    font-size: 2.3vw;
+    font-family: 'Inter', sans-serif;
+    top: -0.8vw;
+    border-radius: 1.7vw;
+    font-weight: 700;
+    color: #FF6000;
+}
+
+/* Contact Us */
+
+
+/* .main-content{
+    background-color: #f7ceada8;
+} */
+.contact #content{
+    text-align: center;
+    width: 100%;
+}
+.contact #content h3{
+    font-size: 2.3vw;
+    font-weight: 700;
+    color: #FF6000;
+    margin-top: 1.2vw;
+}
+
+.contact #content p{
+    font-size: 1.7vw;
+    font-weight: 400;
+    margin-top: 1.2vw;
+}
+
+.contact #content p{
+    font-size: 1.4vw;
+    font-weight: 300;
+}
+.image img{
+    width: 100%;
+    height: 50vw;
+}
+.contactform #form-container{
+    align-items: center;
+}
+.contactform{
+    width: 40%;
+    padding: 40px;
+}
+.contactform h2{
+    font-size: 2.1vw;
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+;
+}
+.contactform .inputbox input, textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1.3vw;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid;
+    outline: none;
+    resize: none;
+}
+
+.contactform .inputbox .spam{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 1.3vw;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    
+}
+.contactform .inputbox input:focus ~.spam,
+.contactform .inputbox input:valid ~.spam,
+.contactform .inputbox textarea:focus ~.spam,
+.contactform .inputbox textarea:valid ~.spam
+{
+    color: #ed661f;
+    font-size: 1.3vw;
+    transform: translateY(-20px);
+}
+
+.contactform .inputbox input[type="submit"]{
+    width: 20vw;
+    border: none;
+    cursor: pointer;
+    padding: 1.1vw;
+    font-size: 1.5vw;
+}
